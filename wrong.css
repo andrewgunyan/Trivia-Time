@@ -1,0 +1,81 @@
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 400px) {
+    .title h1 {
+        font-size: 46px;
+    };
+    #weatherSubmit
+    {
+      width: 95%;
+    }
+    input {
+      width: 95%;
+    }
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #F5CF8E; /* Yellow */
+    }
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: #B2D6FF; /* Blue */
+    }
+  }
+
+body {
+    background: url('images/sad.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .main
+{
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.background
+{
+  background-color: rgba(167, 158, 158, 0.527);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 15%;
+  padding-bottom: 2.5%;
+  display: block;
+}
+
+h1.center {
+    font-size: 300px;
+    font-weight: strong;
+    text-align: center;
+}
+
+#footer
+{
+    
+  position: fixed;
+  bottom: 0px;
+  left: 10px;
+}
+#footer2
+{
+  position: fixed;
+  bottom: 0px;
+  left: 100px;
+}
