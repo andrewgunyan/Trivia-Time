@@ -49,89 +49,6 @@ body {
   text-align: center;
 }
 
-.userInput
-{
-  justify-content: center;
-  display: flex;
-  width: 100%;
-  margin-top: 25px;
-}
-
-input
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  border-radius: 15px;
-  border: 2px solid rgb(17, 17, 17);
-  padding: 5px;
-  margin: 5px;
-  margin-top: 50%;
-  justify-content: center;
-}
-
-select
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  border-radius: 15px;
-  padding: 5px;
-  margin: 5px;
-  margin-top: 50%;
-  justify-content: center;
-}
-
-#weatherSubmit
-{
-  color: rgb(24, 22, 22);
-  background-color: transparent;
-}
-
-.weatherDaily
-{
-  display: flex;
-  justify-content: center;
-}
-
-#weatherResults
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-radius: 10px;
-  background-color: rgba(216, 208, 208, 0.4);
-  margin-top: 40px;
-  width: 720px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.forecast
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: flex;
-  justify-content: center;
-}
-
-.forecastItem
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 20%;
-  background-color: rgba(216, 208, 208, 0.4);
-  border-radius: 10px;
-  padding: 5px;
-  margin: 20px;
-}
-
-#forecastResults
-{
-  display: flex;
-  justify-content: center;
-  width:90%;
-  max-width: 999px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  text-align: center;
-}
-
 .background
 {
   background-color: rgba(167, 158, 158, 0.527);
@@ -144,17 +61,6 @@ select
   display: block;
 }
 
-.title
-{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
-  color: rgb(224, 224, 224);
-  width: 100%;
-  justify-content: center;
-  margin-top: 25px;
-  display: flex;
-}
-
 #footer
 {
   position: fixed;
@@ -162,31 +68,22 @@ select
   left: 10px;
 }
 
-form {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.divider {
-  width: 100%;
-  margin-top: 10px
-}
-
-hr {
-  height: 2px;
-  background-color: rgb(231, 227, 227);
+#triviaHr {
+  height: 3px;
+  background-color: black;
   border: none;
 }
 
-.mainThing {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 75px;
-  line-height: 75px;
-  margin: 20px;
+#spacer {
+  border-radius: 15px;
+  margin: 30px;
+  border-color: black;
+  border-style: solid;
+}
+
+.triviaText {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgb(199, 186, 186);
 }
 
