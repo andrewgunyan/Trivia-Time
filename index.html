@@ -1,62 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset='UTF-8'/>
-  <meta name= 'viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-  <title>Creative Project 2</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="trivia-styles.css">
 </head>
-
 <body>
 
-<section class = "background">
-
-  <section class = "main">
-
-    <div class = "title">
-      <h1>Anime Pictures</h1>
-    </div>
-
-  </section>
-
-  <div class = "userInput">
-    <form>
-      <select id="animeTypes" name = "animeTypes">
-        <option value = "happy">Happy</option>
-        <option value = "cuddle">Cuddle</option>
-        <option value = "cry">Cry</option>
-        <option value = "hug">Hug</option>
-        <option value = "awoo">Awoo</option>
-        <option value = "pat">Pat</option>
-        <option value = "smug">Smug</option>
-        <option value = "bonk">Bonk</option>
-        <option value = "blush">Blush</option>
-        <option value = "handhold">Handhold</option>
-        <option value = "dance">Dance</option>
+  <section class = "background">
 
 
-      </select>
-      <input id="weatherSubmit" type="submit" value="Search"></input>
-    </form>
-  </div>
-
-  <div class = "weatherDaily">
-  <img src = "" id="weatherResults">
-  </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
-  <script text="type/javascript" src="/script.js">
-  </script>
-
-</section>
-
-<div id = 'footer'>
-  <a href = "https://github.com/BYUCS260/lab2.monkeboosting.com"> <img src = "images/github.png" width = 75px></a>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Page 1</a></li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
 </div>
 
 
 
-</body>
 
+</section>
+
+
+</body>
 </html>
