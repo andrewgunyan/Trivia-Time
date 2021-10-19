@@ -22,14 +22,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>                        
           </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <a class="navbar-brand" href="#">Trivia Night</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Page 1</a></li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
+            <li><a href="right.html">Old Success Page</a></li>
+            <li><a href="wrong.html">Old Failure Page</a></li>
+            <li><a href="anime.html">Random Anime API Practice Page</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -39,17 +39,29 @@
       </div>
     </nav>
   
+  <h1 id = "intro">Welcome to Trivia Night!</h1>
+
   <div id = "spacer">
-    <h3 class = "triviaText">Collapsible Navbar</h3>
-    <hr id = "triviaHr">
-    <p class = "triviaText">In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
-    <p class = "triviaText">Only when the button is clicked, the navigation bar will be displayed.</p>
+    <h2 id = "category"></h2>
+      <hr id = "triviaHr">
+      <div id="questionBox">
+        <p id = "question"></p>
+        <button id = "skip">Next</button>
 
-    <div id="question"></div>
+        <div id = "answers">
 
-  </div>
+        </div>
+      </div>
+    </div>
+
+    <button id = "solution">Show Solution</button>
+
+    <script text="type/javascript" src="/trivia-script.js">
+    </script>
 
 </section>
+
+
 
 <div id = 'footer'>
   <a href = "https://github.com/andrewgunyan/CreativeProject2"> <img src = "images/githubWhite.png" width = 75px></a>

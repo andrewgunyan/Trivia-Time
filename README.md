@@ -1,4 +1,2 @@
 # CreativeProject2
-Me and Jake's Creative Project
-THIS IS NOT A CRINGE ANIME THING I WAS ONLY PRACTICING
-FIGURE OUT SOMETHING BETTER POR FAVOR
+A trivia website
