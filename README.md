@@ -1,2 +1,2 @@
-# CreativeProject2
-A trivia website
+# Trivia Time
+A trivia based website
